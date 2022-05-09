@@ -9,8 +9,7 @@ body{margin:0px;padding:0px;
 h1{
     text-align:center;
     color:#006d77;
-      font-family: 'Oswald', sans-serif; ;
-     
+      font-family: 'Oswald', sans-serif; 
       font-size:70px;
       margin:0px;
       padding:0px;
@@ -43,6 +42,10 @@ h1{
     display: flex;
     flex-direction:column;
 }
+img{
+        width:100%;
+        height:100%;
+}
 
 .panel h3{
     font-family: 'Oswald', sans-serif;
@@ -52,6 +55,9 @@ h1{
 }
 
 .panel.active{
+    background-size:auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     flex:0.4;
     display:flex;
     width: 120px;
@@ -69,12 +75,17 @@ h1{
 
 }
 
-@media(max-width:600px){
+@media(max-width:1080px){
     .container{
         width:95vw;
     }
     .panel h3{
         writing-mode: tb-rl; 
     }
-   
+    .panel.active h3{
+        writing-mode: tb-rl; 
+    }   
+}
+@media(max-width:2400px){
+    
 }

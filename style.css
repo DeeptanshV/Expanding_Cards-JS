@@ -42,10 +42,12 @@ h1{
     display: flex;
     flex-direction:column;
 }
- img {
+
+    img {
         width: 100%;
         height: auto;
       }
+
 
 .panel h3{
     font-family: 'Oswald', sans-serif;
@@ -74,10 +76,20 @@ h1{
     color:white;
 
 }
+.header{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
 
 @media(max-width:1080px){
     .container{
         width:95vw;
+        height:50vh;
+        margin:0 auto;
+        margin-top:100px;
+        justify-content:center;
+        align-items:center;
     }
     .panel h3{
         writing-mode: tb-rl; 
@@ -85,7 +97,8 @@ h1{
     .panel.active h3{
         writing-mode: tb-rl; 
     }   
-}
-@media(max-width:2400px){
-    
+    h1{
+        font-size:40px;
+        text-align: center;
+    }
 }

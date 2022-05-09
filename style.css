@@ -82,7 +82,7 @@ h1{
     justify-content: center;
 }
 
-@media(max-width:1080px){
+@media(max-width:1110px){
     .container{
         width:95vw;
         height:50vh;

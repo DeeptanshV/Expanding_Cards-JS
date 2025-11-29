@@ -1,3 +1,3 @@
 # Expanding_Cards-JS
 Hello Everyone!
-this project is a simple illustration og Javascript with HTM
+this project is a simple illustration og Javascript with HTML
